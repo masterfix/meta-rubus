@@ -2,3 +2,8 @@ meta-rubus
 ==========
 
 Rubus Linux layer for the YoctoProject
+
+Dependencies:
+git clone -b danny git://git.yoctoproject.org/poky.git
+git clone git://git.openembedded.org/meta-openembedded
+git clone -b danny git://github.com/djwillis/meta-raspberrypi.git
